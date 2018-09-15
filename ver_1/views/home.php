@@ -1,0 +1,5 @@
+<div id="home_banner_title"><p>Supplier of Best Quality Hairdressing and Cosmetic Products</p></div>
+                <div class="home_banner"><img src="img/wide_range.png" id="wide_range" title="Image downloaded from http://www.freepik.com"/><p>Wide range of supplies</p></div>
+                <div class="home_banner"><img src="img/quality.png" id="quality" title="Image downloaded from http://www.freepik.com" /><p>Professional products of proven brands</p></div>
+                <div class="home_banner"><img src="img/safety.png" id="safety" title="Image downloaded from http://www.freepik.com" /><p>Guarantee of quality and safety</p></div>
+                <div class="home_banner"><img src="img/on_time.png" id="deliveries" title="Image downloaded from http://www.freepik.com" /><p>Deliveries on time</p></div>

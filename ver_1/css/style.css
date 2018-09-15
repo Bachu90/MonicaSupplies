@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0 0;
+	background-color: #adacab;
+}
+
+#wrapper {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	background-color: #e1e1e1;
+}
+
+header {
+	width: 1000px;
+	height: 200px;
+	background-color: #e1e1e1;
+}
+
+#logo {
+	float: left;
+}
+
+#logo_img {
+	height: 150px;
+	width: 355px;
+	margin-left: 30px;
+}
+
+#social {
+	float: left;
+	width: 615px;
+	height: 150px;
+}
+
+#nav {
+	height: 46px;
+	width: 1000px;
+	clear: both;
+	padding: 0;
+	background-color: #e1e1e1;
+	border-top: 1px solid #adacab;
+	border-bottom: 1px solid #adacab;
+}
+
+#nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#nav ul li {
+	display: inline-block;
+	width: 245px;
+	height: 46px;
+	border-right: 2px solid #adacab;
+}
+
+#nav ul li:hover {
+	background-color: #cdff00;
+}
+
+#nav ul li:last-of-type {
+	border-right: none;
+}
+
+
+#nav ul li a {
+	display: block;
+	width: 245px;
+	height: 40px;
+	text-align: center;
+	font-size: 22px;
+	padding-top: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #cdff00;
+	text-shadow: 1px 1px 3px #000;
+	text-decoration: none;
+}
+
+#nav ul li a:hover {
+	cursor: pointer;
+	color: #000;
+}
+
+section {
+	width: 1000px;
+	height: auto;
+}
+
+#slider_container {
+	width: 900px;
+	height: auto;
+	/* background-color: #C60; */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+article {
+	width: 800px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+.home_banner {
+	display: block;
+	height: 120px;
+	width: 800px;
+	/* background-color: #6F6; */
+	margin: 20px 0px;
+	padding-left: 70px;
+}
+
+#home_banner_title {
+	display: block;
+	height: 150px;
+	width: 800px;
+	background-image:url(../img/banner.png);
+}
+
+#home_banner_title p {
+	font-size: 22px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #000;
+	padding-left: 40px;
+	padding-top: 78px;
+}
+
+#offer_banner_title {
+	display: block;
+	height: 150px;
+	width: 800px;
+	background-image:url(../img/banner.png);
+}
+
+#offer_banner_title p {
+	font-size: 22px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #000;
+	padding-left: 130px;
+	padding-top: 78px;
+}
+
+#offer {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	text-shadow: 1px 1px 1px #000;
+	color: #FFF;
+}
+
+#gallery_banner_title {
+	display: block;
+	height: 150px;
+	width: 800px;
+	background-image:url(../img/banner.png);
+}
+
+#gallery_banner_title p {
+	display: inline-block;
+	font-size: 28px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #000;
+	margin-left: 130px;
+	margin-top: 200px;
+}
+
+#gallery {
+	display: inline;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	text-shadow: 1px 1px 1px #000;
+	color: #FFF;
+	text-align: center;
+}
+
+#contact_banner_title {
+	display: block;
+	height: 150px;
+	width: 800px;
+	background-image:url(../img/banner.png);
+}
+
+#contact_banner_title p {
+	font-size: 22px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #000;
+	padding-left: 200px;
+	padding-top: 78px;
+}
+
+#contact {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	text-shadow: 1px 1px 1px #000;
+	color: #FFF;
+	padding-left: 200px;
+}
+
+#map {
+	display: block;
+	height: 450px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#wide_range {
+	height: 120px;
+	width: 120px;
+	float: left;
+	margin-left: 25px;
+}
+
+#quality {
+	height: 88px;
+	width: 120px;
+	float: left;
+	margin-left: 25px;
+	margin-top: 16px;
+}
+
+#safety {
+	height: 120px;
+	width: 120px;
+	float: left;
+	margin-left: 25px;
+}
+
+#deliveries {
+	height: 120px;
+	width: 120px;
+	float: left;
+	margin-left: 25px;
+}
+
+.home_banner p {
+	display: inline-block;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	margin-top: 40px;
+	color: #FFF;
+	margin-left: 50px;
+	float: left;
+	text-shadow: 1px 1px 1px #000;
+}
+
+footer {
+	width: 1000px;
+	height: 50px;
+	background-color: #adacab;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+footer p {
+	display: block;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #000;
+	
+}
+
+footer p a {
+	font-size: 18px;
+	text-decoration: none;
+	color: #FFF;
+}
+
+footer p a:hover {
+	color: #cdff00;
+	cursor: pointer;
+}
